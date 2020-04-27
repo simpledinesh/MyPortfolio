@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "myPortfolio"
+    }
+  },
+  "defaultProject": "myPortfolio",
+  "cli": {
+    "analytics": "d9df36c8-1a01-44e0-87bd-898e67ac6c73"
+  }
 }

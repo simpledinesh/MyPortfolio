@@ -1,0 +1,231 @@
+{
+    "user": {
+        "name": "Dinesh",
+        "description": "Over 4 + years of IT and hands on experience in application development.",
+        "email": "rdineshkarthi88@gmail.com",
+        "phone": "+91 8946091935 ",
+        "address": "404, Pilliyar Kovil Street, Periyasiruvathur, Kallakurichi -606201 "
+    },
+    "userRole": {
+        "name": "MEAN Stack Developer",
+        "description": "are like JS based application developers."
+    },
+    "menu": [
+        {
+            "name": "home"
+        },
+        {
+            "name": "about"
+        },
+        {
+            "name": "services"
+        },
+        {
+            "name": "skills"
+        },
+        {
+            "name": "education"
+        },
+        {
+            "name": "experience"
+        },
+        {
+            "name": "work"
+        },
+        {
+            "name": "contact"
+        }
+    ],
+    "about": {
+        "name": "Web application using PHP frameworks like CodeIgniter, Laravel and JavaScript Frameworks NodeJS, ExpressJs and databases like SQL, MySQL, MongoDB.Good knowledge in responsive web design using HTML5, CSS3, SASS, Bootstrap,Single Page Application like AngularJs.Good team player with excellent communication and interpersonal skills.",
+        "description": "I am happy to know you that 30+ projects done sucessfully!"
+    },
+    "skills": [
+        {
+            "name": "PHP",
+            "description": "PHP is a recursive acronym for PHP: Hypertext Preprocessor. PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites.It is open source scripting language. It is faster than other scripting language. ",
+            "mark": 80,
+            "mark1": "80%",
+            "color": "color-1",
+            "icon": "icon-bulb",
+            "attribute": "fadeInLeft"
+        },
+        {
+            "name": "Angular JS",
+            "description": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript. Angular is written in TypeScript. ... Components define views, which are sets of screen elements that Angular can choose among and modify according to your program logic and data",
+            "mark": 65,
+            "mark1": "65%",
+            "color": "color-2",
+            "icon": "icon-globe-outline",
+            "attribute": "fadeInRight"
+        },
+        {
+            "name": "Node JS",
+            "description": "Node. js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node. js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices",
+            "mark": 65,
+            "mark1": "65%",
+            "color": "color-3",
+            "icon": "icon-phone3",
+            "attribute": "fadeInTop"
+        },
+        {
+            "name": "Database",
+            "description": "A database is a data structure that stores organized information. Most databases contain multiple tables, which may each include several different fields.For example, a company database may include tables for products, employees, and financial records.",
+            "mark": 75,
+            "mark1": "75%",
+            "color": "color-4",
+            "icon": "icon-data",
+            "attribute": "fadeInBottom"
+        },
+        {
+            "name": "Laravel",
+            "description": "Laravel is an open-source PHP framework, which is robust and easy to understand. It follows a model-view-controller design pattern. Laravel reuses the existing components of different frameworks which helps in creating a web application.",
+            "mark": 80,
+            "mark1": "80%",
+            "color": "color-5",
+            "icon": "icon-globe-outline",
+            "attribute": "fadeInBottom"
+        },
+        {
+            "name": "Codeigniter",
+            "description": "CodeIgniter is a PHP MVC framework used for developing web applications rapidly. CodeIgniter provides out of the box libraries for connecting to the database and performing various operations like sending emails, uploading files, managing sessions, etc",
+            "mark": 80,
+            "mark1": "80%",
+            "color": "color-6",
+            "icon": "icon-layers2",
+            "attribute": "fadeInBottom"
+        },
+        {
+            "name": "HTML",
+            "description": "CodeIgniter is a PHP MVC framework used for developing web applications rapidly. CodeIgniter provides out of the box libraries for connecting to the database and performing various operations like sending emails, uploading files, managing sessions, etc",
+            "mark": 80,
+            "mark1": "80%",
+            "color": "color-1",
+            "icon": "icon-layers2",
+            "attribute": "fadeInLeft"
+        },
+        {
+            "name": "CSS",
+            "description": "CodeIgniter is a PHP MVC framework used for developing web applications rapidly. CodeIgniter provides out of the box libraries for connecting to the database and performing various operations like sending emails, uploading files, managing sessions, etc",
+            "mark": 75,
+            "mark1": "75%",
+            "color": "color-2",
+            "icon": "icon-layers2",
+            "attribute": "fadeInRight"
+        }
+    ],
+    "education": [
+        {
+            "title": "MASTER OF COMPUTER APPLICATION",
+            "education": "Madha Engineering College",
+            "year": "JUN 2011 – MAY 2014",
+            "address": "Kundrathur, Chennai, Tamil Nadu",
+            "percentage": "CGPA - 7.52",
+            "panel": "headingOne",
+            "collapse": "collapseOne"
+        },
+        {
+            "title": "Bachelor Degree of Computer Science",
+            "education": "Dr.R.K.Shanmugam College of Arts and Science",
+            "year": "JUN 2008 – MAY 2011",
+            "address": " Indili, Kallakurichi, Tamil Nadu",
+            "percentage": "CGPA - 7.38",
+            "panel": "headingTwo",
+            "collapse": "collapseTwo"
+        },
+        {
+            "title": "HIGHER SECONDARY CERTIFICATE",
+            "education": "Jeevan Matriculation Higher Secondary School",
+            "year": "JUN 2007 – MAR 2008",
+            "address": "Chinnasalem, Kallakurichi, Tamil Nadu",
+            "percentage": "56%",
+            "panel": "headingThree",
+            "collapse": "collapseThree"
+        },
+        {
+            "title": "SECONDARY SCHOOL LEAVING CERTIFICATE",
+            "education": "Government Higher Secondary School",
+            "year": "JUN 2005 – MAR 2006 ",
+            "address": "Periyasiruvathur, Kallakurichi, Tamil Nadu ",
+            "percentage": "64%",
+            "panel": "headingFour",
+            "collapse": "collapseFour"
+        }
+    ],
+    "experience": [
+        {
+            "name": "Techzarinfo Software & Consulting Service",
+            "role": "web Developer",
+            "year": "FEB 2018 – TILL NOW",
+            "description": "Writing well designed, testable, efficient code by using best software development practices.Creating website layout/user interfaces by using standard HTML/CSS practices.Integrating data from various back-end services and databases.",
+            "color": "color-1",
+            "attribute": "fadeInLeft"
+        },
+        {
+            "name": "Binary Technologies",
+            "role": "PHP Developer",
+            "year": "FEB 2016 –JULY 2017",
+            "description": "A PHP Developer is responsible for creating and implementing an array of Web-based products using PHP, MySQL, Ajax, and JavaScript. You develop back-end components, connect the application with other web services, and assist front-end developers by ensuring their work integrates with the application",
+            "color": "color-2",
+            "attribute": "fadeInRight"
+        },
+        {
+            "name": "Trinay Technology Solutions  Pvt Ltd",
+            "role": "PHP Developer",
+            "year": "FEB 2015 – DEC 2015",
+            "description": "A PHP Developer is responsible for creating and implementing an array of Web-based products using PHP, MySQL, Ajax, and JavaScript. You develop back-end components, connect the application with other web services, and assist front-end developers by ensuring their work integrates with the application",
+            "color": "color-3",
+            "attribute": "fadeInTop"
+        }
+    ],
+    "work": [
+        {
+            "name": "Funclub",
+            "image": "assets/images/img-1.jpg",
+            "url": "javascript:void(0);",
+            "category": "laravel",
+            "technology": "Laravel and MySQL",
+            "attribute": "fadeInLeft"
+        },
+        {
+            "name": "Back Four",
+            "image": "assets/images/img-2.jpg",
+            "url": "javascript:void(0);",
+            "category": "codeIgniter",
+            "technology": "CodeIgniter and MySQL",
+            "attribute": "fadeInRight"
+        },
+        {
+            "name": "Tanhoda",
+            "image": "assets/images/img-3.jpg",
+            "url": "javascript:void(0);",
+            "category": "php",
+            "technology": "PHP and MySQL",
+            "attribute": "fadeInTop"
+        },
+        {
+            "name": "Fashion App",
+            "image": "assets/images/img-4.jpg",
+            "url": "javascript:void(0);",
+            "category": "laravel",
+            "technology": "Laravel and MySQL",
+            "attribute": "fadeInBottom"
+        },
+        {
+            "name": "IWELLS Camera surveillance ",
+            "image": "assets/images/img-5.jpg",
+            "url": "javascript:void(0);",
+            "category": "angular",
+            "technology": "AngularJs and NodeJs",
+            "attribute": "fadeInLeft"
+        },
+        {
+            "name": "DMES",
+            "image": "assets/images/img-6.jpg",
+            "url": "javascript:void(0);",
+            "category": "laravel",
+            "technology": "Laravel and MySQL",
+            "attribute": "fadeInRight"
+        }
+    ]
+}

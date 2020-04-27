@@ -1,0 +1,35 @@
+<section class="colorlib-about" data-section="about">
+    <div class="colorlib-narrow-content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                    <div class="col-md-12">
+                        <div class="about-desc">
+                            <span class="heading-meta">About Us</span>
+                            <h2 class="colorlib-heading">Who Am I?</h2>
+                            <p><strong>Hi I'm {{user.name}}</strong> {{about.name}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div *ngFor="let item of skills| slice:0:4; let i=index" class="col-md-3 animate-box"
+                        [attr.data-animate-effect]="item.attribute">
+                        <div class="services" [ngClass]="item.color">
+                            <span class="icon2"><i [ngClass]="item.icon"></i></span>
+                            <h3>{{item.name}}</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="hire">
+                            <h2>{{about.description}}</h2>
+                            <a href="javascript:void(0);" class="btn-hire">Hire me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<app-services [skills]="skills"></app-services>

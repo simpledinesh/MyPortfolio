@@ -1,0 +1,121 @@
+<section class="colorlib-contact" data-section="contact">
+    <div class="colorlib-narrow-content">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                <span class="heading-meta">Get in Touch</span>
+                <h2 class="colorlib-heading">Contact</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                    <div class="colorlib-icon">
+                        <i class="icon-globe-outline"></i>
+                    </div>
+                    <div class="colorlib-text">
+                        <p><a href="#">{{user.email}}</a></p>
+                    </div>
+                </div>
+
+                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                    <div class="colorlib-icon">
+                        <i class="icon-map"></i>
+                    </div>
+                    <div class="colorlib-text">
+                        <p>{{user.address}}</p>
+                    </div>
+                </div>
+
+                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                    <div class="colorlib-icon">
+                        <i class="icon-phone"></i>
+                    </div>
+                    <div class="colorlib-text">
+                        <p><a href="tel://">{{user.phone}}</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 col-md-push-1">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+                        <form [formGroup]="mailFrom" (ngSubmit)="onSubmit()">
+                            <div class="form-group">
+                                <input [class.is-invalid]="mailControl.name.invalid && mailControl.name.touched"
+                                    type="text" class="form-control" placeholder="Name" formControlName="name">
+                                <div *ngIf="mailControl.name.invalid && mailControl.name.touched">
+                                    <small *ngIf="mailControl.name.errors.required" class="text-danger">Name is
+                                        Required</small>
+                                    <small *ngIf="mailControl.name.errors.minlength" class="text-danger">Name must be at
+                                        least 3 characters</small>
+                                    <small *ngIf="mailControl.name.errors.maxlength" class="text-danger">The name must
+                                        be less than 75 characters</small>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input [class.is-invalid]="mailControl.email.invalid && mailControl.email.touched"
+                                    type="email" class="form-control" placeholder="Email" formControlName="email">
+                                <div *ngIf="mailControl.email.invalid && mailControl.email.touched">
+                                    <small *ngIf="mailControl.email.errors?.required" class="text-danger">Email is
+                                        Required</small>
+                                    <small *ngIf="mailControl.email.errors?.minlength" class="text-danger">Email must be
+                                        at
+                                        least 3
+                                        characters</small>
+                                    <small *ngIf="mailControl.email.errors?.maxlength" class="text-danger">The email
+                                        must
+                                        be less than 75
+                                        characters</small>
+
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <input [class.is-invalid]="mailControl.subject.invalid && mailControl.subject.touched"
+                                    type="text" class="form-control" placeholder="Subject" formControlName="subject">
+                                <div *ngIf="mailControl.subject.invalid && mailControl.subject.touched">
+                                    <small *ngIf="mailControl.subject.errors?.required" class="text-danger">Subject is
+                                        Required</small>
+                                    <small *ngIf="mailControl.subject.errors?.minlength" class="text-danger">Subject
+                                        must
+                                        be
+                                        at
+                                        least 3
+                                        characters</small>
+                                    <small *ngIf="mailControl.subject.errors?.maxlength" class="text-danger">The subject
+                                        must be less than 75
+                                        characters</small>
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea
+                                    [class.is-invalid]="mailControl.message.invalid && mailControl.message.touched"
+                                    id="message" cols="30" rows="7" class="form-control" placeholder="Message"
+                                    formControlName="message"></textarea>
+                                <div *ngIf="mailControl.message.invalid && mailControl.message.touched">
+                                    <small *ngIf="mailControl.message.errors?.required" class="text-danger">Message is
+                                        Required</small>
+                                    <small *ngIf="mailControl.message.errors?.minlength" class="text-danger">Message
+                                        must
+                                        be
+                                        at
+                                        least 3
+                                        characters</small>
+                                    <small *ngIf="mailControl.message.errors?.maxlength" class="text-danger">The message
+                                        must be less than 300
+                                        characters</small>
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input [disabled]="!mailFrom.valid" type="submit"
+                                    class="btn btn-primary btn-send-message" value="Send Message">
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
